@@ -1,0 +1,178 @@
+/* CLEAR */
+.clear #form-login {
+    background-color: #4C2E10;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-inline: 23%;
+    margin-bottom: 20px;
+    width: 55%;
+}
+
+.clear #container{
+    padding-bottom: 20px;
+}
+
+.clear #title {
+    color: #E7B888 !important;
+}
+
+.clear .form-label {
+    color: #E7B888 !important;
+
+}
+
+.clear .form-control {
+    background-color: #E7B888;
+    border: 1px solid #E7B888;
+    margin-inline: 25%;
+    width: 50%;
+}
+
+.clear .form-control:hover, .clear .form-control:active {
+    background-color: #eac59f;
+}
+
+.clear #submit {
+    background-color: #E7B888;
+    border: 1px solid #E7B888;
+    color: #4C2E10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+/* Botones */
+.clear #cerrar-session,.clear #home {
+    background-color: #4C2E10;
+    border: 1px solid #E7B888;
+    color: #E7B888;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Personalizacion por pagina */
+.clear main {
+    background-color: #E7B888;
+}
+
+.clear header nav div p a,  .clear header nav div button span .bi-list{
+    color: #E7B888 !important;
+}
+
+.clear footer nav div .btn {
+    color: #E7B888 !important;
+    border: 1px solid #E7B888;   
+}
+
+/* Offcanvas style */
+.clear header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a i {
+    color: #4C2E10;
+}
+
+
+/* DARK */
+.dark #form-login {
+    background-color: #E7B888;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-inline: 23%;
+    margin-bottom: 20px;
+    width: 55%;
+}
+
+.dark #container{
+    padding-bottom: 20px;
+}
+
+.dark #title {
+    color: #4C2E10 !important;
+}
+
+.dark .form-label {
+    color: #4C2E10 !important;
+}
+
+.dark .form-control {
+    background-color: #4C2E10 !important;
+    border: 1px solid #4C2E10;
+    margin-inline: 25%;
+    color: #E7B888;
+    width: 50%;
+}
+
+.dark #submit {
+    background-color: #E7B888;
+    border: 1px solid #4C2E10;
+    color: #4C2E10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+/* Botones */
+.dark #cerrar-session,.clear #home {
+    background-color: #4C2E10;
+    border: 1px solid #E7B888;
+    color: #E7B888;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Personalizacion por pagina */
+.dark main {
+    background-color: #4C2E10 !important;
+}
+
+.dark .container div h6 {
+    color: #E7B888;
+}
+
+.dark header nav div p a,  .clear header nav div button span i{
+    color: #4C2E10 !important;
+}
+
+.dark footer nav div .btn {
+    color: #4C2E10 !important;
+    border: 1px solid #4C2E10;   
+}
+
+/* Offcanvas style */
+.dark header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a i {
+    color: #4C2E10;
+}

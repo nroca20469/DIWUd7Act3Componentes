@@ -1,0 +1,315 @@
+
+/* CLEAR */
+.clear main {
+    background-color: #DEF2C8 !important;
+}
+
+/* Para todo el formulario */
+.clear main .row #form {
+    background-image: url('../img/back/totoro.png');
+    background-size: 150% 100%;
+    background-position-x: center;
+    background-blend-mode:hue;
+    border-radius: 7%;
+    opacity: 0.8;
+}
+
+/* Para todos los label */
+.clear main .row #form div .form-label{
+    color: #ffff !important;
+    opacity: 1;
+}
+
+/* Para todas las imagenes */
+.clear main .row #form div label img{
+    opacity: 0.8;
+}   
+
+.clear main .pt-3 .py-4 h3{
+  opacity: 1;
+}
+
+/* Para todos los inout del formulario */
+.clear main .row #form div .form-control{
+    opacity: 1.5;
+    width: 80% !important;
+    align-self: center !important;
+    margin-left: 10%;
+    box-shadow: 5px 5px;
+    background-image: linear-gradient(#ffff, #DEF2C8);
+}
+
+/* Para cuando pasamos el raton por encima de la img */
+.clear main .row #form div label img{
+    transition: width 1s, height 1s;
+}
+
+.clear main .row #form div .form-check label img:hover{
+	opacity: 1;
+    width: 100px;
+    height: 100px;
+}
+
+/* Para cuando los inputs esten checkeados que las imagees: */
+.clear main .row #form div .form-check label > input:checked + img{
+    opacity:1;
+    width: 100px;   
+}
+
+/* Animation for h3*/
+.clear main div div h3{
+    position: relative;
+    animation-name: animationH3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animationH3 {
+    0% {
+        left: 0%; 
+    }
+    25%{
+        left: -17%;
+    }
+    50%{
+        left: 0;
+    }
+    75%{
+        left: 17%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.clear main div div h3{
+    text-align: center;
+}
+
+.clear header .navbar div p a .logo:hover{
+    transform: scale(1.5,1.5);
+}
+
+/* Parte del formulario */
+.clear main .row #form .userTYpe {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}     
+
+.clear main .row #form div .form-label, .clear main .row #form div .form-check-label {
+    color: #FFF !important;
+}
+
+.clear main .row #form div .form-check-input {
+    max-width: 15px;
+    max-height: 15px;
+    opacity: 1;
+    box-shadow: 0 0;
+}
+
+.clear main .row #form div .form-check-input:checked {
+    background-color: #4C2E10;
+    border-color: #4C2E10;
+}
+
+/* Errores */
+.clear main .row #form .mb-3 small, .clear main .row form small {
+    color: #ff0101;
+    background-color: #DEF2C8;
+    visibility: hidden;
+}
+
+.clear main .row #form .mb-3.error small{
+    visibility: visible;
+}
+
+/* Offcanvas style */
+.clear header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a i {
+    color: #4C2E10;
+}
+
+
+/* DARK */
+/* Header */
+.dark header {
+    background-color: #E7B888 !important;
+}
+
+.dark header nav div p a {
+    color: #4C2E10;
+} 
+
+.dark nav div div button {
+    background-color: #DEF2C8;
+    color: #4C2E10;
+}
+
+/* Main */
+.dark main {
+    background-color: #4C2E10 !important;
+}
+
+/* Etiqueta register */
+.dark main .container div h3 {
+    color: #DEF2C8 !important;
+}
+
+/* Para todo el formulario */
+.dark main .row #form {
+    background-image: url('../img/back/totoro.png');
+    background-size: 150% 100%;
+    background-position-x: center;
+    background-blend-mode:hue;
+    border-radius: 7%;
+    opacity: 0.8;
+}
+
+/* Para todos los label */
+.dark main .row #form div .form-label{
+    color: #ffff !important;
+    opacity: 1;
+}
+
+/* Para todas las imagenes */
+.dark main .row #form div label img{
+    opacity: 0.8;
+}   
+
+.dark main .pt-3 .py-4 h3{
+  opacity: 1;
+}
+
+/* Para todos los inout del formulario */
+.dark main .row #form div .form-control{
+    opacity: 1.5;
+    width: 80% !important;
+    align-self: center !important;
+    margin-left: 10%;
+    box-shadow: 5px 5px;
+    background-image: linear-gradient(#ffff, #E7B888);
+}
+
+/* Para cuando pasamos el raton por encima de la img */
+.dark main .row #form div label img{
+    transition: width 1s, height 1s;
+}
+
+.dark main .row #form div .form-check label img:hover{
+	opacity: 1;
+    width: 100px;
+    height: 100px;
+}
+
+/* Para cuando los inputs esten checkeados que las imagees: */
+.dark main .row #form div .form-check label > input:checked + img{
+    opacity:1;
+    width: 100px;   
+}
+
+/* Para los mensajed de error */
+.dark small {
+    display: none;
+}
+
+.dark #save {
+    background-color: #E7B888 !important;
+    border: 1px solid #4C2E10;
+    color: #4C2E10;
+}
+
+/* Animation for h3*/
+.dark main div div h3{
+    position: relative;
+    animation-name: animationH3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+
+.dark main div div h3{
+    text-align: center;
+}
+
+.dark header .navbar div p a .logo:hover{
+    transform: scale(1.5,1.5);
+}
+
+/* Parte del formulario */
+.dark main .row #form .userTYpe {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}     
+
+.dark main .row #form div .form-label, .clear main .row #form div .form-check-label {
+    color: #FFF !important;
+}
+
+.dark main .row #form div .form-check-input {
+    max-width: 15px;
+    max-height: 15px;
+    opacity: 1;
+    box-shadow: 0 0;
+}
+
+.dark main .row #form div .form-check-input:checked {
+    background-color: #4C2E10;
+    border-color: #4C2E10;
+}
+
+/* Errores */
+.dark main .row #form .mb-3 small, .clear main .row form small {
+    color: #ff0101;
+    background-color: #DEF2C8;
+    visibility: hidden;
+}
+
+.dark main .row #form .mb-3.error small{
+    visibility: visible;
+}
+
+/* Offcanvas style */
+.dark header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a i, .dark header nav div #offcanvasResponsive .offcanvas-body div button {
+    color: #4C2E10;
+    background-color: #E7B888;
+}

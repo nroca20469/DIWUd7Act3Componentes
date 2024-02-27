@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/styleMostrarUsers.css">
+        <!-- <link rel="stylesheet" href="../style/registerstyle.css"> -->
+        <title>Tell me</title>
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>  
+
+    </head>
+
+    <body class="clear">
+
+        <div id="app">
+            <heade location="./../" src-logo="./../img/WhiteLogo.png"></heade>
+
+            <main>
+
+                <div class="container" id="editar-user">
+                    <div class="cont-form">
+                        <form id="formulario">
+                            <label> Edit User </label>
+                            <input type="text" id="username" placeholder="USERNAME" readonly>
+                            <input type="text" id="email" placeholder="EMAIL">
+                            <input type="text" id="usertype" placeholder="USER TYPE">
+                            <button class="sub" onclick="saveUser();">Save changes </button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="container" id="mostrar-users">
+                    <div id="encabezado"></div>
+                    <div id="caja-users" class="text-center">
+
+                    </div>
+                </div>        
+            </main>
+
+            <foot location="./../"></foot>
+        </div>
+
+        <script type="module" src="./../js/componentes/App.js"></script>
+
+        <script type="module" src="../js/showHideButtonsLogInLogOut.js"></script>
+        <script type="module" src="../js/showUsers.js"></script>
+        <script type="module" src="../js/logout.js"></script>
+        <script type="module" src="../js/darkClear.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

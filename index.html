@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/styleCustom.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>  
+
+    <title>Tell me</title>
+</head>
+
+<body class="clear">
+
+    <div id="app">
+        <heade location="./" src-logo="./img/WhiteLogo.png"></heade>
+
+        <main>
+            <div class="container-fluid ps-4 pb-4">
+                <div class="row">
+                    <!-- Articles -->
+                    <div class="col">
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/candy.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ms-2 me-1">
+                                <h5>A veces me pregunto pq...</h5>
+                                <p>Lorem ipsum dolor sit amet... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/a.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ms-2 me-1">
+                                <h5>Ns si es en serio</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur ... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/e.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ps-2 me-1">
+                                <h5>Me gusta cocinar pero...</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur ... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- More articles-->
+                    <div class="col">
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/gore.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ps-2 me-1">
+                                <h5>Le hice daño a alguien</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur ... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/haikyuu.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ps-2 me-1">
+                                <h5>Me gusta pero me hace daño</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur ... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="form/article.html"><img src="img/i.jpg" alt="imagen" width="133" height="133"></a>
+                            </div>
+                            <div class="col ps-2 me-1">
+                                <h5>Me gustaria ser...</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur ... <a href="form/article.html" class="btn btn-link">Leer mas...</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Search bar & topic checker -->
+                    <div class="col-lg-3 d-none d-lg-block d-xl-block d-xxl-block p-4" id="topic-searcher">
+                        <div class="row" id="article">
+                            <form class="mt-3 mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control text-center search" id="search" placeholder="Search">
+                                    <span class="input-group-text" id="search">
+                                        <i class="bi bi-search"></i>
+                                    </span>
+                                </div>
+                            </form>
+                            <div class="d-md-block pt-2" id="topic-searcher2">
+                                <div class="text-center" >
+                                    <h6>TOPICS</h6>
+                                </div>
+                            
+                                <ul class="list-group" id="search">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <input class="checkbox" type="checkbox" value="deporte" class="deporte">
+                                            <label for="deporte">Deporte</label>
+                                        <span class="badge rounded-pill">4</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <input class="bg-dark-subtleform-check-input" type="checkbox" value="amor" id="amor">
+                                            <label for="amor">Amor</label>
+                                        <span class="badge rounded-pill">10</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center familia">
+                                        <input class="bg-dark-subtleform-check-input me-1" type="checkbox" value="familia" id="familia">
+                                            <label for="familia">Familia</label>
+                                        <span class="badge rounded-pill">15</span>
+                                    </li>
+                                </ul>
+                                <div class="d-grid justify-content-md-end" >
+                                    <button class="btn" id="search-button">Search</button>
+                                </div>
+                            </div>
+                        <div id="user1" class="text-center">
+                            <img src="" alt="" id="img2" width="100px">
+                            <h4 id="username"></h4>
+                            <h6 id="email"></h6>
+                            <a href="form/profilePage.html"><button id="view-profile"> View Profile </button></a>
+                            <button id="cerrar-session"> Log Out </button> 
+                            <a id="see" href="form/mostrarUsers.html"><button id="see-users"> See All Users </button></a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </main>
+
+        <foot location="./"></foot>
+    </div>
+
+    <script type="module" >
+        import Heade from './js/componentes/Header.js';  //Import the header component
+        import Foot from './js/componentes/Footer.js'; //Import the footer component
+
+        const { createApp } = Vue;
+
+        const app = createApp({
+            data: () => {
+                return {
+                    information: null
+                }
+            }, 
+            components: {
+                Foot,
+                Heade
+            }
+
+        }).mount('#app');
+    </script>
+
+    <script type="module" src="./js/showHideButtonsLogInLogOut.js"></script>
+    <script type="module" src="./js/showAvatar.js"></script>
+    <script type="module" src="js/logout.js"></script>
+    <script type="module" src="js/darkClear.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

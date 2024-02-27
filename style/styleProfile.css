@@ -1,0 +1,199 @@
+img {
+    max-width: 200px;
+}
+
+#showData {
+    text-align: center;
+    padding-block: 10px;
+    padding-bottom: 30px;
+}
+
+.edit-data, .chg-password, .chg-avatar {
+    display: none;
+}
+
+.form-check label input:not(:checked)+img:hover {
+    width: 100px;
+}
+
+.form-check-label input:checked+img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+}
+
+/* CLEAR */
+.clear .btn {
+    background-color:#4C2E10;
+    color: #E7B888 !important;
+    padding: 10px;
+}
+
+.clear footer nav div .btn,.clear footer nav div #cerrar-session, .clear #buttonsLogInRegister a button {
+    background-color:#4C2E10;
+    color: #E7B888 !important;
+    padding: 10px;
+    border: 1px solid #4C2E10;
+}
+
+.clear #formulario {
+    display: block;
+    width: 80%;
+    background-color: #4C2E10;
+    margin-inline: 9%;
+    margin-block: 20px;
+    border-radius: 7px;
+}
+
+.clear #formulario label, .clar #formulario h5 {
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #E7B888;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+.clear #formulario input {
+    background-color: #E7B888;
+    color: #4C2E10;
+    width: 80%;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 5px;
+    padding: 2px;
+    margin-inline: 9%;
+}
+
+.clear #formulario button {
+    background-color: #E7B888;
+    color: #4C2E10;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+/* Offcanvas  */
+.clear header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+    background-color: #4C2E10;
+}
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.clear header nav div #offcanvasResponsive .offcanvas-body button a i {
+    color: #4C2E10;
+}
+
+
+/* DARK */
+.dark .btn {
+    background-color:#E7B888;
+    color: #4C2E10 !important;
+    padding: 10px;
+}
+
+.dark footer nav div .btn,.clear footer nav div #cerrar-session, .clear #buttonsLogInRegister a button {
+    background-color:#4C2E10;
+    color: #E7B888 !important;
+    padding: 10px;
+    border: 1px solid #4C2E10;
+}
+
+.dark #formulario {
+    display: block;
+    width: 80%;
+    background-color: #E7B888;
+    margin-inline: 9%;
+    margin-block: 20px;
+    border-radius: 7px;
+}
+
+.dark #formulario label, .clar #formulario h5 {
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #4C2E10;
+    margin-inline: 40%;
+    width: 20%;
+    text-align: center;
+}
+
+.dark #formulario input {
+    background-color: #4C2E10;
+    color: #E7B888;
+    width: 80%;
+    border-radius: 7px;
+    border: 1px solid #E7B888;
+    margin: 5px;
+    padding: 2px;
+    margin-inline: 9%;
+}
+
+.dark #formulario button {
+    background-color: #4C2E10;
+    color: #E7B888;
+    border-radius: 7px;
+    border: 1px solid #4C2E10;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-inline: 35%;
+    width: 30%;
+    text-align: center;
+}
+
+/* Personalizado */
+.dark header nav div p a{
+    background-color: #E7B888;
+}
+
+.dark header nav div p .logo, .dark header nav div button span i {
+    color: #4C2E10 !important;
+}
+
+.dark footer nav div .btn {
+    color: #4C2E10 !important;
+    background-color: #E7B888 !important;
+}
+
+/* Offcanvas  */
+.dark header nav div #offcanvasResponsive {
+    background-color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn {
+    background-color: #4C2E10;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-header .btn-group .btn a i {
+    color: #E7B888;
+}
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a {
+    padding-block: 2.5px;
+    border: 2px solid #4C2E10;
+    border-radius: 7px;
+}   
+
+.dark header nav div #offcanvasResponsive .offcanvas-body button a i {
+    color: #4C2E10;
+}

@@ -1,0 +1,509 @@
+/*Import fonts*/
+@font-face {
+    font-family: 'fontTitle';
+    src: url('fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf');
+} 
+
+@font-face {
+    font-family: 'fontSubtitles';
+    src: url('fonts/Victor_Mono/VictorMono-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'fontParragraphIButtons';
+    src: url('fonts/Lemonada/Lemonada-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'fontCatchAttention';
+    src: url('fonts/Roboto_Mono//RobotoMono-VariableFont_wght.ttf');
+}
+
+/*Use the fonts already imported */
+h3{
+    font-family: fontParragraphIButtons !important;
+    font-size: 25px !important;
+    color: #4C2E10 !important;
+}
+
+h5{
+    font-family: fontTitle !important;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+h6{
+    font-family: fontSubtitles;
+}
+
+label{
+    font-family: fontParragraphIButtons;
+    font-size: 12px;
+}
+
+button{
+    font-family: fontParragraphIButtons !important;
+    font-size: 12px !important;  
+}
+
+p{
+    font-family: fontParragraphIButtons, 'Arial', 'Slab Serif' !important;
+    font-size: 12px;
+}
+
+a{
+    font-family: fontCatchAttention !important;
+    font-size: 13px !important;
+}
+
+/* CLEAR */
+/* Style of the components */
+.clear main, #main {
+    background-color: #DEF2C8;
+}
+
+.clear header, #header {
+    background-color: #4C2E10;
+}
+
+.clear footer, #footer {
+    background-color: #4C2E10 !important;
+}
+
+a{
+    text-decoration: none !important; 
+    font-family: Lemonada !important;
+    color: #DEF2C8; 
+    font-size: 18px !important;
+}
+
+/* Offcanvas style */
+.clear header nav div button .icon-bar i{
+    color: #DEF2C8;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-header .btn-group{
+    width: 100%;
+    background-color: #E7B888 !important;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-header .btn-group .btn{
+    color: #4C2E10;
+}
+
+/*Finder */
+.clear header nav .offcanvas-lg .offcanvas-body .input-group {
+    width: 90%;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .input-group .form-outline{
+    width: 80% !important;
+    border: 2px solid #E7B888;
+    border-radius: 7px;
+    background-color: #E7B888;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .input-group .form-outline .form-control{
+    background-color: #E7B888 !important; 
+    width: 100% !important;
+    border: 3px solid #E7B888;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .input-group .btn {
+    background-color: #4C2E10 !important; 
+    border-style: solid !important; 
+    border-color: #4C2E10; 
+    border:1px solid #E7B888;
+    width: 20%;
+    color: #E7B888
+}
+
+/* Topic searcher */
+.clear main div #topic-searcher #article {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-inline: 10px;
+}
+  
+.clear main div #topic-searcher #article form .input-group {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #4C2E10;
+}
+  
+.clear main div #topic-searcher #article form .input-group input {
+    color: #DEF2C8;
+    background-color: #E7B888;
+}
+  
+.clear main div #topic-searcher #article form .input-group span {
+    background-color: #4C2E10;
+    border: 1px solid #4C2E10;
+}
+  
+.clear main div #topic-searcher #article form .input-group span i {
+    color: #E7B888;
+}
+
+/* Topic searcher */
+.clear main div #topic-searcher #article #topic-searcher2 {
+    border: 1px solid #4C2E10;
+    background-color: #E7B888;
+    border-radius: 7px;
+}
+
+.clear main div #topic-searcher #article #topic-searcher2 div {
+     margin-top: 10px;
+
+}
+
+.clear main div #topic-searcher #article #topic-searcher2 #search li{
+    border-top: 1px solid #4C2E10 !important;
+    border-bottom: none !important;
+    border-inline: none !important;
+    background-color: #E7B888;
+}
+
+.clear main div #topic-searcher #article #topic-searcher2 #search li span {
+    padding-block: 2.5px;
+    background-color: #4C2E10;
+    color: #E7B888;
+}
+
+.clear main div #topic-searcher #article #topic-searcher2 #search .familia {
+    border-bottom: 1px solid #4C2E10 !important;
+    margin-bottom: 5px;
+    background-color: #E7B888;
+}
+
+.clear main div #topic-searcher #article #topic-searcher2 div button {
+    border-top: 1px solid #4C2E10;
+    background-color: #4C2E10;
+    color: #E7B888;
+    border-radius: 7px;
+    margin-bottom: 8px;
+}
+
+/* Offcanvas */
+.clear header nav .offcanvas-lg .offcanvas-body div div p{
+    color: #4C2E10;
+    font-size: medium;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3{
+    background-color: #E7B888; 
+    border: 4px solid #4C2E10; 
+    border-radius: 10px;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3 ul li {
+    background-color: #E7B888; 
+    border: #E7B888;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3 ul .cuerpo {
+    border-top: 2px solid #0B0A07;
+    border-radius: 7px;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3 .list-group li label {
+    color: #4C2E10 !important;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3 ul li span {
+    background-color: #4C2E10 !important; 
+    color: #E7B888 !important;
+}
+
+.clear header nav .offcanvas-lg .offcanvas-body .m-3 div .btn {
+    border: 2px solid #4C2E10; 
+    color: #4C2E10;
+}
+
+
+.clear header nav .offcanvas-lg .offcanvas-body .close-btn {
+    color: #4C2E10;
+    background-color: #E7B888;
+    border: #4C2E10;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+/* Nav bar style */
+.clear header nav div div .me-2 {
+    background-color: #4C2E10; 
+    color: #DEF2C8;
+}
+
+.clear main div div form div input{
+    background-color: #E7B888 !important; 
+    border-style: solid !important; 
+    border-color: #4C2E10;
+}
+
+.clear main div div form div .form-control::placeholder{  /* Changes the color of the placeholder text */
+    color: #4C2E10 !important;
+    font-family: fontParragraphIButtons;
+    font-size: 12px;;
+} 
+
+.clear input[type="checkbox"] {  /*Changes the color, with the background color & changes it's color with the one when checked that yu put(in that case brown)*/
+    accent-color: #4C2E10 !important;
+    mix-blend-mode: multiply;
+}
+
+.clear main div div #user1, .clear header nav div .offcanvas-lg .offcanvas-body #user {
+    margin: 20px;
+    padding: 10px;
+    background: #E7B888;
+    border-radius: 7px;
+}   
+
+.clear main div div #user1 a #view-profile, .clear main div div #user1 #cerrar-session,.clear main div div #user1 #see-users,
+.clear header nav div .offcanvas-lg .offcanvas-body #user a #view-profile, .clear header nav div .offcanvas-lg .offcanvas-body #user #cerrar-session, .clear header nav div .offcanvas-lg .offcanvas-body #user a #see-users  {
+    border-radius: 7px;
+    background-color:  #4C2E10;
+    color: #E7B888;
+    border: 1px solid #4C2E10;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+.clear footer nav div .btn {
+    color: #DEF2C8 !important;
+    border: 1px solid #DEF2C8;
+}
+
+
+/* DARK */
+/* Style of the components */
+.dark main {
+    background-color: #4C2E10 !important;
+}
+
+.dark header {
+    background-color: #E7B888 !important;
+}
+
+.dark footer {
+    background-color: #E7B888  !important;
+}
+
+.dark a{
+    text-decoration: none !important; 
+    font-family: Lemonada !important;
+    color: #4C2E10; 
+    font-size: 18px !important;
+}
+
+/* Offcanvas style */
+.dark header nav div button .icon-bar i{
+    color: #4C2E10;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-header .btn-group{
+    width: 100%;
+    background-color: #E7B888 !important;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-header .btn-group .btn{
+    color: #4C2E10;
+}
+
+/* Offcanvas */
+.dark header nav .offcanvas-lg .offcanvas-body div div p{
+    color: #4C2E10;
+    font-size: medium;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3{
+    background-color: #E7B888; 
+    border: 4px solid #4C2E10; 
+    border-radius: 10px;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3 ul li {
+    background-color: #E7B888; 
+    border: #E7B888;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3 ul .cuerpo {
+    border-top: 2px solid #0B0A07;
+    border-radius: 7px;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3 .list-group li label {
+    color: #4C2E10 !important;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3 ul li span {
+    background-color: #4C2E10 !important; 
+    color: #E7B888 !important;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .m-3 div .btn {
+    border: 2px solid #4C2E10; 
+    color: #4C2E10;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .close-btn {
+    color: #4C2E10;
+    background-color: #E7B888;
+    border: #4C2E10;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*Finder */
+.dark header nav .offcanvas-lg .offcanvas-body .input-group {
+    width: 90%;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .input-group .form-outline{
+    width: 80% !important;
+    border: 2px solid #E7B888;
+    border-radius: 7px;
+    background-color: #E7B888;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .input-group .form-outline .form-control{
+    background-color: #E7B888 !important; 
+    width: 100% !important;
+    border: 3px solid #E7B888;
+}
+
+.dark header nav .offcanvas-lg .offcanvas-body .input-group .btn {
+    background-color: #4C2E10 !important; 
+    border-style: solid !important; 
+    border-color: #4C2E10; 
+    border:1px solid #E7B888;
+    width: 20%;
+    color: #E7B888
+}
+
+/* Nav bar style */
+.dark header nav div div .me-2 {
+    background-color: #E7B888; 
+    color: #4C2E10;
+}
+
+/* Topic searcher */
+.dark #topic-searcher #article {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-inline: 10px;
+}
+  
+.dark #topic-searcher #article form .input-group {
+    width: 100%;
+    border-radius: 7px;
+}
+  
+.dark #topic-searcher #article form .input-group input {
+    color: #DEF2C8;
+    border: 1px solid #4C2E10;
+    background-color: #E7B888;
+}
+  
+.dark #topic-searcher #article form .input-group span {
+    background-color: #E7B888;
+    border: 1px solid #4C2E10;
+}
+  
+.dark #topic-searcher #article form .input-group span i {
+    color: #4C2E10;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 {
+    border: 1px solid #E7B888;
+    border-radius: 7px;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 #search li {
+    border-top: 1px solid #E7B888 !important;
+    border-bottom: none !important;
+    border-inline: none !important;
+    border-radius: 7px;
+    background-color: #4C2E10 !important;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 #search li span {
+    padding-block: 2.5px;
+    background-color: #E7B888;
+    color: #4C2E10;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 #search li label, .dark #topic-searcher #article #topic-searcher2 div button, .dark #topic-searcher #article #topic-searcher2 div h6  {
+    color: #E7B888 !important;
+}
+
+.dark #topic-searcher #article #topic-searcher2 div {
+    margin-top: 5px;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 #search #familia{
+    border-bottom: 1px solid #E7B888 !important;
+    margin-bottom: 5px;
+}
+  
+.dark #topic-searcher #article #topic-searcher2 div button {
+    border-top: 1px solid #E7B888;
+    border-radius: 7px;
+    margin-bottom: 8px;
+  }
+  
+
+.dark main div div form div input{
+    background-color: #E7B888 !important; 
+    border-style: solid !important; 
+    border-color: #4C2E10;
+}
+
+.dark main div div form div .form-control::placeholder{  /* Changes the color of the placeholder text */
+    color: #4C2E10 !important;
+    font-family: fontParragraphIButtons;
+    font-size: 12px;
+} 
+
+.dark input[type="checkbox"] {  /*Changes the color, with the background color & changes it's color with the one when checked that yu put(in that case brown)*/
+    accent-color: #E7B888 !important;
+    /* mix-blend-mode: multiply; */
+}
+
+.dark main div div #user1, .clear header nav div .offcanvas-lg .offcanvas-body #user {
+    margin: 20px;
+    padding: 10px;
+    background: #E7B888;
+    border-radius: 7px;
+}   
+
+.dark main div div #user1 a #view-profile, .dark main div div #user1 #cerrar-session,.dark main div div #user1 #see-users,
+.dark header nav div .offcanvas-lg .offcanvas-body #user a #view-profile, .dark header nav div .offcanvas-lg .offcanvas-body #user #cerrar-session, .dark header nav div .offcanvas-lg .offcanvas-body #user a #see-users  {
+    border-radius: 7px;
+    background-color:  #4C2E10;
+    color: #E7B888;
+    border: 1px solid #4C2E10;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+/* Main */
+.dark main div .row .col .row .col h5{
+    color: #DEF2C8;
+}
+
+.dark main div .row .col .row .col p, .dark main div .row .col .row .col a {
+    color: #E7B888;
+}
+
+/* Footer */
+.dark footer nav div .btn {
+    color: #4C2E10 !important;
+    border: 1px solid #4C2E10;
+}

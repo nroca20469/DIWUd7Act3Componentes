@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style/style.css">
+    
+     <link rel="stylesheet" href="../style/articlestyle.css">
+     <link rel="stylesheet" href="../style/styleProfile.css">
+    <title>Tell me</title>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>  
+
+</head>
+
+<body class="clear">
+   
+    <div id="app">
+
+        <heade location="./../" src-logo="./../img/WhiteLogo.png"></heade>
+
+        <main>
+            <div class="container">
+                <div class="row pt-3">
+                    <h6> Home / Profile </h6>
+                </div>
+                
+                <div id="showData">
+                    <div id="imgProfile">
+                        <img src="" id="img">
+                    </div>
+                    <h4 id="username"></h4>
+                    <h5 id="email"></h5>
+                    <h5 id="userType"></h5>
+                    <button class="btn" id="edit-prof"> Edit profile </button>
+                    <button class="btn" id="delete"> Delete account </button>
+                    <button class="btn" id="chg-pswd"> Change Password </button>
+                    <button class="btn" id="chg-avatar"> Change Avatar </button>
+                </div>
+
+                <div class="chg-password">
+                    <div id="formulario">
+                        <label> Actual Password </label>
+                        <input type="text" id="password" placeholder="Password">
+                        <label> New Password </label>
+                        <input type="text" id="newPassword" placeholder="New password">
+                        <input type="text" id="newPassword2" placeholder="Repeat password">
+                        <button id="chg-pswd-internal"> Save changes </button>
+                    </div>
+                </div>
+
+                <div class="chg-avatar">
+                    <div id="formulario" class="text-center">
+                        <h5> Change avatar </h5>
+                        <label> Actual avatar </label>
+                        <img id="actual-avatar" src="" alt="actual" width="100px">
+                        <label> New avatar </label>
+                        <div class="text-center" id="userPhoto">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" name="userProfilePhoto" id ="userProfilePhoto" value="Cutie1" >
+                                    <input class="form-check-input" type="radio" name="userProfilePhoto" id="userProfilePhoto1" value="userProfielPhoto1" hidden>
+                                        <img type="module" src="../img/perfil/perfil4.png" alt="Cutie1" width="80px" id="profilePhoto1">
+                                    </input>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" name="userProfilePhoto" id ="userProfilePhoto" value="Cutie2" >
+                                    <input class="form-check-input" type="radio" name="userProfilePhoto" id="userProfilePhoto2" value="userProfielPhoto2" hidden>
+                                        <img type="module" src="../img/perfil/perfil5.png" alt="Cutie2" width="80px" id="profilePhoto2">
+                                    </input>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" name="userProfilePhoto" id ="userProfilePhoto" value="Cutie3" >
+                                    <input class="form-check-input" type="radio" name="userProfilePhoto" id="userProfilePhoto3" value="userProfielPhoto3" hidden>
+                                        <img type="module" src="../img/perfil/perfil6.png" alt="Cutie3" width="80px" id="profilePhoto3">
+                                    </input>
+                                </label>
+                            </div>                        
+                        </div>
+                        <button id="chg-avatar2"> Save Avatar </button>
+                    </div>
+                </div>
+
+                <div class="edit-data">
+                    <div id="formulario">
+                        <label> Edit User </label>
+                        <input type="text" id="username2" placeholder="USERNAME" readonly>
+                        <input type="text" id="email2" placeholder="EMAIL">
+                        <input type="text" id="usertype" placeholder="USER TYPE">
+                        <div id="mostrarphoto">
+                            <img src="" class="img2">
+                        </div>
+                        <button class="sub" onclick="saveUser();">Save changes </button>
+                    </div>
+                </div>
+            
+            </div>  
+                
+
+                
+
+        </main>
+
+        <foot location="./../"></foot>
+    </div>
+
+   
+
+
+    <script type="module" src="./../js/componentes/App.js"></script>
+    <script type="module" src="../js/editUserProfile.js"></script>    
+    <script type="module" src="../js/showHideButtonsLogInLogOut.js"></script>
+    <script type="module" src="../js/profilePage.js"></script>
+    <script type="module" src="../js/logout.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
