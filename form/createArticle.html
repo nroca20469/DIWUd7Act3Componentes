@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../style/style.css">
     <!-- <link rel="stylesheet" href="../style/createEdit.css"> -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script> 
+
     <!-- <script src="./../vue.js"></script> -->
 
     <style>
@@ -94,6 +96,10 @@
         footer button {
             color: #E7B888 !important;
         }
+
+        router-link {
+            color: #4C2E10;
+        }
     </style>
 </head>
 <body id="clear">
@@ -107,45 +113,25 @@
         
         <main  id="main">
 
-            <h2 v-if="editing"> Edit Article </h2>
+            <!-- <h2 v-if="editing"> Edit Article </h2>
             <h2 v-else-if="creating"> Create Article </h2>
-            <h2 v-else> Create Article </h2>
+            <h2 v-else> Create Article </h2> -->
             
-            <form>
-                <label for="title"> Title </label><br>
-                <input v-model="article.title" name="title"><br>
+            <h2> Articles </h2>
+            <router-link to="/"> <button> View articles </button> </router-link>
 
-                <label for="content"> Content </label><br>
-                <input v-model="article.content" name="" id="content"><br>  
+            <!-- <ul v-if="articles.length">
+                <li v-for="(item, index) in articles"> -->
+                    <!-- <post :pos="item" @edit-article="editArticle($event, item)" @delete-article="deleteArticle($event, item)"></post> -->
+
+                <!-- </li> -->
                 
-                <label for="author"> Author </label><br>
-                <input v-model="article.author" name="" id="content"><br>
+            <!-- </ul> -->
+            
+            <router-link to="/post/creating"> <button> New Post </button> </router-link>
 
-                <label for="img" v-if="editing"> Actual Image: </label><input v-if="editing" type="image" :src="article.image"><br>
-                <label for="img"> Image  </label><br>
-                <input type="file" v-bind:model="article.image" ref="img" class="notRadius" accept="image/*" id="image" @change="updateImage"><br><br>
-
-                <label for="date"> Date </label> <br>
-                <input v-model="article.date" name="" id="date" type="date" class="notRadius"><br><br>
-
-                <label for="status" style="margin-right: 5px"> Status </label>
-                <select id="status" v-model="article.status" @change="updateStatus">
-                    <option value="">  </option>
-                    <option value="draft"> Draft </option>
-                    <option value="published"> Published </option>
-                    <option value="removed  "> Removed </option>
-                </select>
-                
-                <input v-if="editing" v-model="article.id" id="id" hidden><br><br>  
-                <button v-if="editing" v-on:click.prevent="saveArticle($event, article.id)"> Save Changes </button>
-                <button v-else @click.prevent="crearArticle"> Create Article </button>
-            </form> 
-
-            <ul v-if="articles.length"> <!-- Si hay articulos que se muestrem por pantalla-->
-                <li v-for="(item, index) in articles">
-                    <post :pos="item" @edit-article="editArticle($event, item)" @delete-article="deleteArticle($event, item)"></post>
-                </li>
-            </ul> 
+            <router-view></router-view>
+            
                     
         </main>
         
